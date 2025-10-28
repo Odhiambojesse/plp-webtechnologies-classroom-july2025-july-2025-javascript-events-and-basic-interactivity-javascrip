@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events handling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Events Handling with js</h1>
+    <button id="myButton">Click Me!</button>
+    <a href="https://www.openai.com" id="hoverText">Visit Open AI!</a><br><br>
+    <input type="text" id="nameInput" placeholder="Enter your name..">
+    <p id="displayName"></p><br><br>
+    <input type="range" id="fontSlider" min="10" max="50" value="20">
+    <p id="SliderText" style="font-size: 20px;">Increase the size</p><br><br>
+    <button id="openModal">An open Modal</button>
+    <div id="modal" style="display:none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 20px; border: 2px solid black;">
+        <p>This is a modal window!</p>
+        <button id="closeModal">Close</button>
+    </div><br><br>
+    <fieldset>
+        <form id="myForm">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="johndoe@email">
+        <p id="errorMessage" style="color: red"></p><br><br>
+        <label for="name">Username:</label>
+        <input type="text" id="username" placeholder="Enter your name..">
+        <p id="errorMessage" style="color: red"></p><br><br>
+        <button type="submit">Submit</button>
+    </fieldset>    
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
